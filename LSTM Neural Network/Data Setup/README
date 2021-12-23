@@ -1,0 +1,2 @@
+This file normally outputs two csv files to be used in the final LSTM neural network. Those files are located in the final LSTM neural
+network folder in the data folder.

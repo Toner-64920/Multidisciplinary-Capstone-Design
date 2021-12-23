@@ -1,0 +1,19 @@
+This folder contains the practice files and actual files for the long short-term memory neural network developed
+for the Multidiscipline Capstone Design (ECSE-4900) at Rensselaer Polytechnic Institute. The project description was
+based around sales forecasting methods with my method being a LSTM neural network. The files created for that project
+are posted in this folder and can be viewed with some sample output plots also posted in this folder. Due to how at the
+time these were created I started out with very little neural network knowledge and limited user interface resources, the
+output plots are simplistic matplotlib plots and there are some rookie mistakes in all of the model files, ranging from the
+final model to the first practice model. Due to how this project was heavily based around the M5 Kaggle competition, these
+files are able to be uploaded privately without breaking any non-disclosure documents for the course due to how I took it
+in the Fall 2021 semester, but just in case please do not share these files to the public. The following can be used for reference
+to tell which .py files are which, if it isn't clear:
+Practice LSTM neural network with one input time series: LSTMTEST_OLD
+Practice LSTM neural network with multiple input time series: LSTMTEST
+Final LSTM neural network with multiple input times series based around M5 competition data: YetAnotherLSTMTest
+Modified M5 competition data used in the final neural network: sales_train_evaluation_summed_by_day
+Program modifying the modified M5 competition data further before using it in the final LSTM neural network: Data_Setup
+
+Please make sure that you have the required libraries in python installed before running the neural network. Due to issues
+noticed when switching Tensorflow types mid project, please use Tensorflow without GPU support for the practice models to work
+properly or at all, since they did not work with the GPU variant of Tensorflow.
